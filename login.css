@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Alata", sans-serif;
+}
+
+.login{
+	display: flex;
+	height: 100vh;
+}
+
+.left{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	padding: 5%;
+	text-align: center; 
+    margin-left: 30%;
+}
+
+.left h3{
+	margin-bottom: 20px;
+}
+
+.group{
+	position:relative;
+	display:flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.group label,
+.group input,{
+	width: 100%;
+}
+
+.group label{
+	margin-bottom: 10px;
+}
+
+.group input{
+	padding: 12px 12px 12px 55px;
+}
+
+.group i.fa{
+	position: absolute;
+	width: 50px;
+	height: 47px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	background-color: #e083a2;
+	border-radius: 5px 0 0 5px;
+	top: 30px;
+}
+
+button, label, .left p, a, input {
+	font-size: 14px;
+	color: #555;
+}
+
+.left h3{
+	color: #555;
+}
+
+button{
+	font-size: 14px;
+	padding: 10px;
+	border:0;
+	background-color: #e083a2;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;/
+	margin-left: 10%;/
+	border-radius: 5px;
+}
+
+.group input{
+	border-radius: 5px;
+	border:2px solid #aaa;
+}
+
+.group.re{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.put{
+	display: flex;
+	width: 50%;
+}
+
+.put input{
+	width: 35px;
+	height: 20px;
+}
+
+.re a{
+	
+}
+
+button:focus, input:focus{
+	outline:0;
+}
+
+input:focus{
+	border-color: #e083a2;
+	color: #e083a2;
+}
+
+button{
+	margin-right: 5px;
+}
+
+button i{
+	margin-right: 5px;
+}
+
+.group span{
+	font-size: 12px;
+	position: relative;
+	top: 10px;
+	background-color: #fff;
+	width: 30%;
+	text-align: center;
+	margin: auto;
+}
+
+.group.btn{
+	flex-direction: row !important;
+	justify-content: center;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+a{
+	color: #e083a2;
+}
+
+.btn a {
+	padding: 6px 20px;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+.facebook{
+	background-color: #3f51b5;
+}
+
+.facebook:hover {
+    background-color: #040f4e;
+}
+
+.twitter{
+	background-color: #2196f3;
+}
+
+.twitter:hover{
+    background-color:#062a47;
+}
+
+.google{
+	background-color: #ce3100;
+}
+
+.google:hover{
+	background-color: #531806;
+}
+
